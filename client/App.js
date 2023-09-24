@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Login from './pages/Login.js';
 import AccountCreation from './pages/AccountCreation.js';
 import HomePage from './pages/HomePage.js';
+import ChatBot from './pages/ChatBot.js';
 
 const Stack = createStackNavigator();
 
@@ -15,6 +16,7 @@ function App() {
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="AccountCreation" component={AccountCreation} />
         <Stack.Screen name="HomePage" component={HomePage} />
+        <Stack.Screen name="ChatBot" component={ChatBot}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

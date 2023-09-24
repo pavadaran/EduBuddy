@@ -9,10 +9,15 @@ const Login = () => {
     navigation.navigate('AccountCreation');
   };
 
+  const goToChatBot = () => {
+    navigation.navigate('ChatBot');
+  };
+
   return (
     <View style={styles.container}>
       <Text>Login Page</Text>
       <Button title="Create Account" onPress={goToAccountCreation} />
+      <Button title="ChatBot" onPress={goToChatBot} />
     </View>
   );
 }
