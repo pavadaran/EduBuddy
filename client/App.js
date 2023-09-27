@@ -2,8 +2,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Login from './pages/Login.js';
-import AccountCreation from './pages/AccountCreation.js';
+import Login from './pages/Login.tsx';
+import AccountCreation from './pages/AccountCreation.tsx';
 import HomePage from './pages/HomePage.js';
 import ChatBot from './pages/ChatBot.js';
 
